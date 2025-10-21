@@ -1,0 +1,233 @@
+/* ========================================
+   CSS GRID ACTIVITY - STUDENT DIRECTIONS
+   Complete each step below to build your layout!
+   ======================================== */
+
+/* Basic Reset - Already done for you! */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+/* ========================================
+   YOUR WORK STARTS HERE! 
+   Follow directions 1-25 below
+   ======================================== */
+
+/* DIRECTION 1: Set .container display property to grid */
+.container {
+    background-color: white;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+/* DIRECTION 2: Add grid-template-columns with 4 equal columns using repeat(4, 1fr) */
+
+
+/* DIRECTION 3: Add grid-template-rows with 6 rows: auto auto 300px auto 150px auto */
+
+
+/* DIRECTION 4: Add a gap of 15px between all grid items */
+
+
+/* DIRECTION 5: Define grid-template-areas with the layout below:
+   Row 1: "header header header header"
+   Row 2: "navbar navbar navbar navbar"  
+   Row 3: "sidebar main main main"
+   Row 4: "sidebar article1 article2 article3"
+   Row 5: "ad ad ad ad"
+   Row 6: "footer footer footer footer"
+*/
+
+
+/* DIRECTION 6: Set padding to 20px for the .container */
+
+
+/* ========================================
+   HEADER SECTION
+   ======================================== */
+
+/* DIRECTION 7: Assign grid-area: header to the .header class */
+.header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* DIRECTION 8: Make the h1 font-size 2.5em */
+.header h1 {
+
+}
+
+/* DIRECTION 9: Set the header paragraph margin-top to 10px */
+.header p {
+
+}
+
+/* ========================================
+   NAVIGATION BAR
+   ======================================== */
+
+/* DIRECTION 10: Assign grid-area: navbar to the .navbar class */
+.navbar {
+    background-color: #333;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+/* DIRECTION 11: Set .navbar display to flex */
+
+
+/* DIRECTION 12: Add justify-content: space-around to .navbar */
+
+
+/* DIRECTION 13: Change .navbar a elements color to white and remove text-decoration */
+.navbar a {
+
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+/* Hover effect - Already done for you! */
+.navbar a:hover {
+    background-color: #667eea;
+}
+
+/* ========================================
+   SIDEBAR SECTION
+   ======================================== */
+
+/* DIRECTION 14: Assign grid-area: sidebar to the .sidebar class */
+.sidebar {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    border-left: 4px solid #667eea;
+}
+
+/* DIRECTION 15: Set .sidebar h2 color to #667eea */
+.sidebar h2 {
+
+}
+
+/* DIRECTION 16: Remove list-style from .sidebar ul and set margin-top to 15px */
+.sidebar ul {
+
+
+}
+
+.sidebar li {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.sidebar li:hover {
+    transform: translateX(5px);
+}
+
+/* ========================================
+   MAIN CONTENT AREA
+   ======================================== */
+
+/* DIRECTION 17: Assign grid-area: main to the .main-content class */
+.main-content {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 8px;
+    border: 2px solid #e0e0e0;
+}
+
+/* DIRECTION 18: Set .main-content h2 color to #333 and margin-bottom to 15px */
+.main-content h2 {
+
+
+}
+
+/* DIRECTION 19: Set .main-content p line-height to 1.6 and margin-bottom to 10px */
+.main-content p {
+
+
+}
+
+/* ========================================
+   ARTICLE SECTIONS
+   ======================================== */
+
+/* DIRECTION 20: Assign grid-area: article1 to .article1 class */
+.article1 {
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* DIRECTION 21: Assign grid-area: article2 to .article2 class */
+.article2 {
+    background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* DIRECTION 22: Assign grid-area: article3 to .article3 class */
+.article3 {
+    background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* ========================================
+   ADVERTISEMENT SECTION
+   ======================================== */
+
+/* DIRECTION 23: Assign grid-area: ad to the .advertisement class */
+.advertisement {
+    background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+}
+
+/* DIRECTION 24: Set .advertisement h3 font-size to 1.8em */
+.advertisement h3 {
+
+}
+
+/* ========================================
+   FOOTER SECTION
+   ======================================== */
+
+/* DIRECTION 25: Assign grid-area: footer to the .footer class */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+/* ========================================
+   🎉 CONGRATULATIONS! 
+   If you completed all 25 directions correctly,
+   you should see a fully working magazine layout!
+   ======================================== */
