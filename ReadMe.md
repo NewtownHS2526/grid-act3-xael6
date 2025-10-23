@@ -13,6 +13,7 @@ You're going to create a **Teen Zone Magazine** website with:
 
 ---
 
+
 ##  Your Files
 
 You have **2 files**:
